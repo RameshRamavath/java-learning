@@ -9,7 +9,7 @@ public class constructors {
 
     //constructor - always same as class name -- no return type is required - these are just for initializing variables
 
-     constructors(String userName, int age){
+     public constructors(String userName, int age){
         this.name=userName;
         this.age=age;
 
