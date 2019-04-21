@@ -1,6 +1,6 @@
 package com.java.ramesh.quickstart;
 
-public class introToOOP {
+public class IntroToOOP {
 
     // Objects
 
@@ -32,6 +32,27 @@ public class introToOOP {
 
     // our class is blueprint of what an human can do (written in diff methods)
 
+    // our constructor method (imaginary human constructor)
+
+    /*public IntroToOOP(){
+
+        age = 25;
+        name = "Ramesh";
+        height = 6;
+
+    }*/
+
+    // creating dynamic constructor -- passing our variable values while calling our constructor method.
+
+    public IntroToOOP(String name, int age, int height, String color, String sex) {
+        this.name = name;
+        this.age = age;
+        this.height = height;
+        this.color = color;
+        this.sex = sex;
+    }
+
+
     // human can speak
 
     public void Speak(){
@@ -46,27 +67,6 @@ public class introToOOP {
     public  void work(){
         System.out.println("I am eating");
     }
-
-    // our constructor method (imaginary human constructor)
-
-    /*public intoToOOP(){
-
-        age = 25;
-        name = "Ramesh";
-        height = 6;
-
-    }*/
-
-    // creating dynamic constructor -- passing our variable values while calling our constructor method.
-
-    public introToOOP(String name, int age, int height, String color, String sex) {
-        this.name = name;
-        this.age = age;
-        this.height = height;
-        this.color = color;
-        this.sex = sex;
-    }
-
 
     // so All human objects in our application can show case these 3 char's
     // so at present human's will have only three functions they can perform (as only three methods are defined)

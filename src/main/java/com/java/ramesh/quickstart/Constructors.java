@@ -1,6 +1,6 @@
 package com.java.ramesh.quickstart;
 
-public class constructors {
+public class Constructors {
     // used to initialize the variable in a class
 
     //our variable - Name
@@ -9,7 +9,7 @@ public class constructors {
 
     //constructor - always same as class name -- no return type is required - these are just for initializing variables
 
-     public constructors(String userName, int age){
+     public Constructors(String userName, int age){
         this.name=userName;
         this.age=age;
 

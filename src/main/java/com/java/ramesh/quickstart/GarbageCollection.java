@@ -1,6 +1,6 @@
 package com.java.ramesh.quickstart;
 
-public class garbageCollection {
+public class GarbageCollection {
 
     // what is Stack and Heap??
     // what happens behind the screen when a Java application runs??

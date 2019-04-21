@@ -1,15 +1,14 @@
 package com.java.ramesh.quickstart;
 
-import javax.print.DocFlavor;
 import java.util.Scanner;
 
-public class starter {
+public class Starter {
 
     public  static void  main (String args[]){
 
         /* introToOOP Section */
 
-        /*    intoToOOP humanObj = new intoToOOP(); // constrcuted one human object from our Human blueprint (Class)
+        /*    IntroToOOP humanObj = new IntroToOOP(); // constrcuted one human object from our Human blueprint (Class)
             // assign some values to our variables
             humanObj.name = "Ramesh";
             humanObj.age = 25;
@@ -19,8 +18,8 @@ public class starter {
 
             // create another human object -- called Mahesh
 
-            intoToOOP mahesh; // mahesh is just an instance variable here
-            mahesh = new intoToOOP(); // object is actually created when this statement is executed.
+            IntroToOOP mahesh; // mahesh is just an instance variable here
+            mahesh = new IntroToOOP(); // object is actually created when this statement is executed.
 
             mahesh.name = "Mahesh";
             mahesh.age = 30;
@@ -35,18 +34,18 @@ public class starter {
 
        /*     System.out.println("creating HumanObjs with hardcoded varaibles ::");
 
-            intoToOOP human1 = new intoToOOP();
-            intoToOOP human2 = new intoToOOP();
-            intoToOOP human3 = new intoToOOP();*/
+            IntroToOOP human1 = new IntroToOOP();
+            IntroToOOP human2 = new IntroToOOP();
+            IntroToOOP human3 = new IntroToOOP();*/
 
             // note all above humans has same features (variables), but they are not same -- As we fixed variable values inside the Human constructor : we have same output
 
         // instead of hard coding var values in constructor -- pass them while creating instance variables.
             System.out.println("creating HumanObjs with dynamic constructor ::");
 
-        introToOOP human1 = new introToOOP("Ramesh",25,6,"black","Male");
-        introToOOP human2 = new introToOOP("Mahesh",25,6,"white","Male");
-        introToOOP human3 = new introToOOP("Raju",25,6,"Fair","Male");
+        IntroToOOP human1 = new IntroToOOP("Ramesh",25,6,"black","Male");
+        IntroToOOP human2 = new IntroToOOP("Mahesh",25,6,"white","Male");
+        IntroToOOP human3 = new IntroToOOP("Raju",25,6,"Fair","Male");
             human1.Speak();
             human2.Speak();
             human3.Speak();
@@ -59,7 +58,7 @@ public class starter {
         //call a method from another class --> GetName from variables class
         // create a instance/object of variables class to access getName method
 
-        variables getUserInfo = new variables();
+        Variables getUserInfo = new Variables();
         //getvar.GetName("my Name is Ramesh");
 
         // get user name from user
@@ -86,7 +85,7 @@ public class starter {
 
         /* working on constructor */
 
-        constructors cons = new constructors("Ramesh",25);
+        Constructors cons = new Constructors("Ramesh",25);
         cons.infoPrint();
         //String cons_output1 = cons.constructors("Ramesh",20);
         //String cons_output2 = cons.constructors("Divz");
@@ -94,6 +93,15 @@ public class starter {
         //System.out.println("cons_output2 -->" + cons_output2);
 
 
+
+        /* inheritance section */
+
+
+
+        Inheritance men1 = new Inheritance("Poul",30,5,"white","male");
+
+        System.out.println("Calling inherited Class methods");
+        men1.Speak(); // note we don't have Speak method in inheritance class.
     }
 
 }

@@ -1,6 +1,6 @@
 package com.java.ramesh.quickstart;
 
-public class variables {
+public class Variables {
 
         // declaring some variables - variables are just place holders for storing values in memory
         // variables assigned to a data type
