@@ -1,12 +1,12 @@
-package com.java.ramesh.quickstart;
+#                                                   Abstraction 
 
-public class Abstraction {
+## What is Abstraction
 
-    // when to use abstract class (when we have Interfaces to achieve total abstraction??)
+    Basically Hiding internal implementation of any application feature and only showing functionality is called ABSTRACTION
 
-    // Basically Hiding internal implementation of any application feature and only showing functionality is called ABSTRACTION
+    
+    When to use abstract class (when we have Interfaces to achieve total abstraction??)
 
-    /*
 
     1. Interfaces can have only Abstract methods, where in Abstract can have non-abstract methods
     2. Variables in Interfaces are Final, where in Abstract class can have non-final variables
@@ -14,5 +14,3 @@ public class Abstraction {
     4. An interface can extend only another interface (wherein Abstract class can extend other classes and multiple interfaces)
     5. members in Interface are Public by default. Abstract class can have class members like private, protected etc.
 
-     */
-}
